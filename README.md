@@ -17,7 +17,7 @@ This project was built in glitch and moved to github to better showcase code and
 
 - Mobile friendly. Work across all platforms.
 
-- Easy Navigation, minimize the need of scrolling to explore other animals.
+- Easy navigation, minimize the need of scrolling to explore other animals.
 
 
 # Development Environment
