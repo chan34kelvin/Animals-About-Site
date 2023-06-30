@@ -20,6 +20,18 @@ This project was built in glitch and moved to github to better showcase code and
 - Easy Navigation, minimize the need of scrolling to explore other animals.
 
 
+# Development Environment
+
+- Glitch Editor
+
+
+# Programming Languages
+
+- CSS
+- HTML
+- JS
+
+
 # What's in this project?
 
 ← `README.md`: That's this file, where I tell people what my cool website does and how I built it.
