@@ -1,0 +1,327 @@
+/******************************************************************************
+START Glitch hello-app default styles
+
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+@media (max-width: 1000px) {
+  .sub-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .nav-element {
+    color: #7b68ee;
+    text-decoration: none;
+  }
+
+  .nav-icon {
+    width: 100%;
+    text-decoration: none;
+    color: #1e90ff;
+  }
+
+  br.space {
+    display: none;
+  }
+
+  .notice {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  br.space {
+    display: initial;
+  }
+
+  .sub-nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-element {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7b68ee;
+  }
+
+  .nav-element:hover {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: solid 5px;
+  }
+
+  .notice {
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav-icon {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1e90ff;
+  }
+
+  .description-note {
+    background-image: url("https://cdn.glitch.global/9560b811-69fe-4e3a-a5a5-fa66a594b147/push-pin-clipart-transparent-background-6.png?v=1654971041512");
+    background-size: 100px 100px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    transform: rotate(-1deg);
+    transition-duration: 3s;
+    box-shadow: 0 4px 8px 0 black, 0 7px 21px 0 black;
+    background-color: #fafad2;
+    font-family: "Work Sans", sans-serif;
+    max-width: 975px;
+  }
+
+  .description-note:hover {
+    /*     background-image: url("https://cdn.glitch.global/9560b811-69fe-4e3a-a5a5-fa66a594b147/winter-forest-png-banner-free-library-mountains-and-llakes-vectors-11563111661krpkq26idu.png?v=1654823579849");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    background-image: none;
+    transform: rotate(0deg);
+    box-shadow: none;
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-bg {
+    position: absolute;
+    top: 0px;
+    left: 650px;
+    opacity: 0.25;
+  }
+
+  .test-note:hover {
+    color: black;
+  }
+
+  .description-note:hover .notice {
+    display: none;
+  }
+}
+
+.un-list {
+  width: 500px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 25px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 5px solid grey;
+}
+
+.ol-list {
+  width: 500px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 25px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 5px solid grey;
+}
+
+.list-bg {
+  background-image: url("https://cdn.glitch.global/7c0d7cbc-1e94-480a-88fe-62a5ab2fd227/animal-banner.webp?v=1655360165708");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.list-items {
+  text-align: left;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.lists {
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1100px;
+}
+
+.whiteboard {
+  padding: 50px;
+  background-image: url("https://cdn.glitch.global/7c0d7cbc-1e94-480a-88fe-62a5ab2fd227/paper2.jpg?v=1655363153944");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-name {
+  background-color: lightgrey;
+  font-size: 25px;
+  letter-spacing: 5px;
+  padding: 20px;
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img.image {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  /*   box-shadow: 0 4px 8px 0 black, 0 7px 21px 0 black; */
+}
+
+.page-nav {
+  /*   background-image: url("https://cdn.glitch.global/7c0d7cbc-1e94-480a-88fe-62a5ab2fd227/zebra.webp?v=1655345116092");
+  background-repeat: no-repeat;
+  background-position: center; */
+  text-align: center;
+}
+
+.animals {
+  margin-bottom: 25px;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  transition-duration: 2.5s;
+  border: 20px double lightgrey;
+}
+
+.animals:hover {
+  transform: scale(1.1);
+}
+
+.page-title {
+  font-size: 50px;
+  font-family: "Special Elite", cursive;
+}
+
+.test-note {
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  font-size: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.videos {
+  font-family: "Special Elite", cursive;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.video {
+  margin-bottom: 25px;
+  border: 5px dashed lightgrey;
+}
+
+.test-banner {
+  background-image: url("https://cdn.glitch.global/9560b811-69fe-4e3a-a5a5-fa66a594b147/1286210.jpg?v=1654826076874");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.note-text {
+  padding: 8vw;
+  padding-bottom: 75px;
+  padding-top: 20px;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.subnav-text {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+.nav-icon-text {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  min-width: 250px;
+  align-items: center;
+  padding: 5px;
+}
+
+.bg-img {
+  background-image: url("https://cdn.glitch.global/7c0d7cbc-1e94-480a-88fe-62a5ab2fd227/Background-website-01.jpg?v=1655371777145");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F9F6EE;
+}
+
+/* banners */
+.banner {
+  background-image: url("https://cdn.glitch.global/9560b811-69fe-4e3a-a5a5-fa66a594b147/sbanner.png?v=1654835441526");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-panda {
+  background-image: url("https://cdn.glitch.global/9560b811-69fe-4e3a-a5a5-fa66a594b147/giant-panda-banner.jpg?v=1654820944962");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-eagle {
+  background-image: url("https://cdn.glitch.global/9560b811-69fe-4e3a-a5a5-fa66a594b147/0196_Banner-197.jpg?v=1654821189920");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-lion {
+  background-image: url("https://cdn.glitch.global/9560b811-69fe-4e3a-a5a5-fa66a594b147/lion1.jpg?v=1654814296237");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
