@@ -2,7 +2,7 @@
 
 Visit here: https://animals-about-site-kelvin-ck-chan.glitch.me/
 
-This project is a website that showcases animal information in a friendly and visually appealing way. It utilizes creative UI elements, such as special fonts, captivating images, and attention-grabbing colors, to highlight important details. The website also offers easy navigation between different animals, eliminating the need for excessive scrolling. Its goal is to provide an engaging and user-friendly experience for exploring and learning about various animals. 
+This project is a website that brief introduce animals in a friendly and visually appealing way. It utilizes creative UI elements, such as special fonts, captivating images, and attention-grabbing colors, to highlight important details. The website also offers easy navigation between different animals, eliminating the need for excessive scrolling. Its goal is to provide an engaging and user-friendly experience for exploring and learning about various animals. 
 
 This was a project during my internship at Code Tenderloin.
 
