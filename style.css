@@ -191,7 +191,7 @@ to this section's matching END comment to see page-specific styles.
 .page-name {
   background-color: lightgrey;
   font-size: 25px;
-  letter-spacing: 5px;
+  letter-spacing: 2.5px;
   padding: 20px;
   color: black;
 }
@@ -225,7 +225,7 @@ img.image {
   margin-bottom: 25px;
   font-family: "Work Sans", sans-serif;
   text-decoration: none;
-  transition-duration: 2.5s;
+  transition-duration: 1.5s;
   border: 20px double lightgrey;
 }
 

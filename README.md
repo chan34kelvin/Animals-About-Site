@@ -49,9 +49,45 @@ This project was built in glitch and moved to github to better showcase code and
 
 https://fonts.google.com/
 
-Backgrounds and Images.
+Image Attributions
 
-https://www.freepik.com/
+Image: Amazing sunset and sunrise panorama silhouette tree in Africa  
+Author: Image by alxyzt on Freepik  
+Source: Freepik (URL: https://www.freepik.com/premium-vector/amazing-sunset-sunrise-panorama-silhouette-tree-africa-with-sunset-dark-tree-open-field-dramatic-sunrisesafari-themegiraffes-elephant-rhino-birds-eps_23789731.htm)
+
+
+Image: Advertising banner, set sketch African animals  
+Author: @Nik Bibik  
+Source: Dreamstime (URL: https://www.dreamstime.com/advertising-banner-set-sketch-african-animals-sketch-variety-wild-animals-african-fauna-wild-nature-use-seamless-patterns-image157845536)
+
+
+Image: Bald Eagle  
+Author: Lincoln Park Zoo  
+Source: Lincoln Park Zoo (URL: https://www.lpzoo.org/animals/bald-eagle/)
+
+
+Image: Mountain Lion  
+Author: California Department of Fish and Wildlife  
+Source: California Department of Fish and Wildlife - Living with Wildlife (URL: https://wildlife.ca.gov/living-with-wildlife)
+
+
+Image: Panda Sanctuary in Chengdu  
+Author: Volunteer World  
+Source: Volunteer World (URL: https://www.volunteerworld.com/en/volunteer-abroad/giant-panda)
+
+
+Image: Grosser Panda  
+Author: J. Patrick Fischer  
+License: CC BY-SA 3.0  
+Source: Wikimedia Commons (URL: https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG)
+
+
+Image: Lion  
+Author: African People and Wildlife  
+Source: African People and Wildlife (URL: https://www.africanpeoplewildlife.org/our-work/programs/northern-tanzania-big-cats-conservation-initiative#lion)
+
+
+
 
 
 
