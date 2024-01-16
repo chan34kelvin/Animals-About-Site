@@ -10,7 +10,11 @@ This project was built in glitch and moved to github to better showcase code and
 
 
 # Designs
+## Wireframe Design
+- A black & white wireframe designed in Figma ensuring UX before actual implementation.
+https://www.figma.com/file/jw3e0oZCtxrfS4mnn21bov/Animal-Site---Code-Tenderloin-Designs?type=design&node-id=0%3A1&mode=design&t=rsh4hObssTvbz0jq-1
 
+## Goals Met
 - Creative and Attractive UI (Fonts, Images, and Colors) to showcase important details.
 
 - Responsive buttons and frames allow users to acknowledge what they are about to click.
@@ -29,8 +33,6 @@ This project was built in glitch and moved to github to better showcase code and
 
 - CSS
 - HTML
-- JS
-
 
 # What's in this project?
 
